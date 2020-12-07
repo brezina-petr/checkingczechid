@@ -11,7 +11,7 @@ def verifyRC(rc):
 
 -----------------------------------------
 Example using in Python 3:
-
+```
 from czechid import verifyIC, verifyRC
 ...
 ret = verifyRC("8810214897")
@@ -25,3 +25,4 @@ if ret:
   print "Valid"
 else:
   print "Unvalid"
+```
